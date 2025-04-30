@@ -61,8 +61,6 @@ pytest tests/ -v --cov=src --cov-report=term-missing
 
 ## 📊 Примеры
 
-# Анализ нескольких файлов
-
 в корне проекта: 
 ```bash
 python main.py ./django_logs/*.log --report handlers
